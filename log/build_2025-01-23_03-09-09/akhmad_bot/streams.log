@@ -1,0 +1,65 @@
+[0.007s] Invoking command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot
+[0.991s] -- The C compiler identification is GNU 9.4.0
+[1.406s] -- The CXX compiler identification is GNU 9.4.0
+[1.422s] -- Check for working C compiler: /usr/bin/cc
+[1.515s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.518s] -- Detecting C compiler ABI info
+[1.570s] -- Detecting C compiler ABI info - done
+[1.582s] -- Detecting C compile features
+[1.595s] -- Detecting C compile features - done
+[1.598s] -- Check for working CXX compiler: /usr/bin/c++
+[1.674s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.675s] -- Detecting CXX compiler ABI info
+[1.733s] -- Detecting CXX compiler ABI info - done
+[1.741s] -- Detecting CXX compile features
+[1.742s] -- Detecting CXX compile features - done
+[1.750s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.773s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.773s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.887s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.910s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.956s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.961s] -- Configured cppcheck include dirs: 
+[1.961s] -- Configured cppcheck exclude dirs and/or files: 
+[1.965s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.965s] -- Configured cpplint exclude dirs and/or files: 
+[1.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.967s] -- Added test 'lint_cmake' to check CMake code style
+[1.968s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.972s] -- Added test 'uncrustify' to check C / C++ code style
+[1.972s] -- Configured uncrustify additional arguments: 
+[1.973s] -- Added test 'xmllint' to check XML markup files
+[1.974s] -- Configuring done
+[1.975s] -- Generating done
+[1.976s] -- Build files have been written to: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot
+[1.978s] Invoked command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot
+[1.980s] Invoking command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot -- -j12 -l12
+[2.002s] Invoked command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot -- -j12 -l12
+[2.010s] Invoking command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot
+[2.015s] -- Install configuration: ""
+[2.015s] -- Execute custom install script
+[2.015s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/config/empty.yaml
+[2.020s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/config/view_of_bot.rviz
+[2.025s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/inertial_macros.xacro
+[2.031s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/robot.urdf.xacro
+[2.035s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/robot_core.xacro
+[2.040s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/launch/launch_sim.launch.py
+[2.045s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/launch/rsp.launch.py
+[2.049s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/worlds/empty.world
+[2.054s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/ament_index/resource_index/package_run_dependencies/akhmad_bot
+[2.059s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/ament_index/resource_index/parent_prefix_path/akhmad_bot
+[2.064s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/environment/ament_prefix_path.sh
+[2.069s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/environment/ament_prefix_path.dsv
+[2.073s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/environment/path.sh
+[2.078s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/environment/path.dsv
+[2.083s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/local_setup.bash
+[2.087s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/local_setup.sh
+[2.092s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/local_setup.zsh
+[2.097s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/local_setup.dsv
+[2.102s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/package.dsv
+[2.106s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/ament_index/resource_index/packages/akhmad_bot
+[2.111s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/cmake/akhmad_botConfig.cmake
+[2.116s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/cmake/akhmad_botConfig-version.cmake
+[2.120s] -- Symlinking: /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/package.xml
+[2.126s] Invoked command in '/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot

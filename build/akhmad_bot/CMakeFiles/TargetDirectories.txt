@@ -1,0 +1,9 @@
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/install/strip.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/install/local.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/edit_cache.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/test.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/install.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/list_install_components.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/rebuild_cache.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/akhmad_bot_uninstall.dir
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/build/akhmad_bot/CMakeFiles/uninstall.dir
