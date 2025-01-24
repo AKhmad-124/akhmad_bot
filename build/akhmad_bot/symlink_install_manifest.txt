@@ -2,10 +2,12 @@
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/config/view_of_bot.rviz
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/gazebo_control.xacro
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/inertial_macros.xacro
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/lidar.xacro
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/robot.urdf.xacro
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/description/robot_core.xacro
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/launch/launch_sim.launch.py
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/launch/rsp.launch.py
+/home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/worlds/cool_world.world
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/akhmad_bot/worlds/empty.world
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/ament_index/resource_index/package_run_dependencies/akhmad_bot
 /home/akhmad/AKhmad_gaz_bot_ws/src/akhmad_bot/install/akhmad_bot/share/ament_index/resource_index/parent_prefix_path/akhmad_bot
