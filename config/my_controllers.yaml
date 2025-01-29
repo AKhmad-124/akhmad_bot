@@ -1,0 +1,26 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+    use_sim_time: true
+
+    # Register the two controllers
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+# Rear wheels configuration
+diff_cont:
+  ros__parameters:
+    publish_rate: 1100.0
+    base_frame_id: base_link
+    odom_frame_id: odom  # Frame ID for odometry
+    enable_odom_tf: true  # Ensures odom -> base_link TF is published
+
+    left_wheel_names: ['left_back_wheel_joint','left_front_wheel_joint']
+    right_wheel_names: ['right_back_wheel_joint','right_front_wheel_joint']
+    wheel_separation: 0.35
+    wheel_radius: 0.05
+    use_stamped_vel: false
+
