@@ -47,6 +47,13 @@
                     <min>0.3</min>
                     <max>12</max>
                 </range>
+                
+                <noise>
+                    <type>gaussian</type> <!-- Gaussian noise, can also use 'uniform' -->
+                    <mean>0.0</mean> <!-- Mean value of the noise -->
+                    <stddev>0.02</stddev> <!-- Standard deviation (controls noise intensity) -->
+                </noise>
+
             </ray>
             <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
                 <ros>

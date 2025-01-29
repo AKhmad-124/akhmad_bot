@@ -21,7 +21,7 @@ def generate_launch_description():
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory(package_name),'launch','rsp.launch.py')]),
-        launch_arguments={'use_sim_time':'true'}.items()
+        launch_arguments={'use_sim_time':'true','use_ros2_control':'false'}.items()# 2nd argumnet true-->use ros2 cont, false ->> use gazebo cont
     )
     gazebo_params_file = os.path.join(
             get_package_share_directory(package_name),'config','gazebo_params.yaml'
