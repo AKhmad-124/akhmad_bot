@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/akhmad/AKhmad_gaz_bot_ws/build/joy_tester",
+        "/home/akhmad/AKhmad_gaz_bot_ws/install/joy_tester/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/akhmad/AKhmad_gaz_bot_ws/build/joy_tester",
+        "/home/akhmad/AKhmad_gaz_bot_ws/install/joy_tester/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

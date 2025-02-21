@@ -15,7 +15,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    package_name = "akhmad_bot" #package name MAKE SURE IT MATCHES
+    package_name = "adcs_sstl" #package name MAKE SURE IT MATCHES
 
 #sets use sime time to true
     rsp = IncludeLaunchDescription(
